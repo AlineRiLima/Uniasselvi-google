@@ -1,0 +1,113 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  background-color:#e0e404 ;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+#nav_bar {
+    float: right;
+}
+
+#nav_bar li {
+    display: inline-block;
+    margin: 8px;
+}
+
+#nav_bar #Entrar {
+  background-color: #4887ef;
+  margin-right: 25px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+}
+
+#Uniasselvi img {
+    width: 1000px;
+    display: block;
+    margin: auto;
+    clear: both;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+#form {
+  text-align: center;
+}
+
+#barra_de_pesquisa {
+  flex: 1;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+#barra_de_pesquisa {
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 24px;
+}
+
+#barra_de_pesquisa {
+  width: 600px;
+  line-height: 30px;
+  background-color:rgb(248, 232, 143);
+  color: rgb(240, 236, 10);
+  padding: 12px 16px;
+  cursor: pointer;
+  border-top-right-radius: 28px;
+  border-bottom-right-radius: 28px;
+
+}
+
+#botoes {
+  text-align: center;
+  padding-top: 30px;
+}
+ 
+footer {
+  background-color: #f7f44a;
+  border-top: solid 2px #e0d9d9;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer ul li {
+  display: inline;
+  color: #2c2b2b;
+  font-size: 20px;
+  padding: 12px;
+}
+
+#footer_esquerdo {
+  float: left;
+}
+
+#footer_direito {
+  float: right;
+}
